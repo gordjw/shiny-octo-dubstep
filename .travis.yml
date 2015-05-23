@@ -7,5 +7,5 @@ script:
  - pwd
 
 after_success:
-    - git remote add staging http://$FTP_USER:$FTP_PASSWORD@202.129.140.105/test
+    - git remote add staging http://$FTP_USER:$FTP_PASSWORD@202.129.140.105/shiny-octo-dubstep
     - git push staging
